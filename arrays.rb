@@ -50,3 +50,14 @@ quantities.unshift 3, 67
 
 # Will add element "false" to the beginning of the Array
 availability.unshift false
+
+=begin
+
+Some examples of index positions in my Arrays
+
+* "Apple" has index position 1 in the fruits Array
+* 75 has index position 4 in the quantities Array
+* Coconut has index position 0 in the fruits Array after the execution of fruits.unshift
+* The boolean, true, has index positions 0, 4, and 6 in the availability Array
+
+=end
