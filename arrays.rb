@@ -61,3 +61,22 @@ Some examples of index positions in my Arrays
 * The boolean, true, has index positions 0, 4, and 6 in the availability Array
 
 =end
+
+=begin
+
+Method arr.delete_at
+
+This method gives one the ability to delete an element within an array at specific index position
+
+Examples below:
+
+=end
+
+# Will delete the 3rd element in availability array, false
+availability.delete_at(2)
+
+# Will delete the 6th element in fruits array, Dragon Fruit. After I added Coconut and Kiwi to the Array, Dragon Fruit became index position 5
+fruits.delete_at(5)
+
+# Will delete the 1st element in prices array, 1.10. I removeded element 4.20 with the pop method and then added 1.10 with the unshift method so index 0 was 1.10
+prices.delete_at(0)
